@@ -1,4 +1,4 @@
-# react-tabulator
+# react-tabulator forked
 
 React Tabulator is based on Tabulator - a JS table library with many advanced features. [Link.](https://github.com/olifolkerd/tabulator)
 
@@ -7,6 +7,12 @@ React Tabulator is based on Tabulator - a JS table library with many advanced fe
 - More Examples, Use cases, FAQ: [More Live Examples / Use cases](/docs/examples.md)
 
 [<img src="docs/react-tabulator-demo.gif" />](https://codesandbox.io/s/0mwpy612xw?module=/src/components/Home.js)
+
+## Forked changes
+
+`fix_undefined_constructor` branch:
+
+* update ts build with `esModuleInterop` flag. Fixes https://github.com/ngduc/react-tabulator/issues/215
 
 ### 🌟 Features
 

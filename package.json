@@ -1,6 +1,6 @@
 {
-  "name": "react-tabulator",
-  "version": "0.15.0",
+  "name": "@timiscoding/react-tabulator",
+  "version": "0.15.0+0.0.1",
   "description": "React Tabulator is based on tabulator - a JS table library with many advanced features.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -11,7 +11,7 @@
     "umd"
   ],
   "scripts": {
-    "build": "npm run clean && tsc --outDir ./lib --jsx react --declaration ./src/index.ts && npm run postbuild",
+    "build": "npm run clean && tsc --esModuleInterop --outDir ./lib --jsx react --declaration ./src/index.ts && npm run postbuild",
     "postbuild": "cp ./src/styles.css ./lib/ && cp -R ./src/css ./lib && cp ./src/styles.css ./ && cp -R ./src/css ./",
     "clean": "nwb clean-module && nwb clean-demo",
     "prepublishOnly": "npm run build",
@@ -26,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://ngduc@github.com/ngduc/react-tabulator.git"
+    "url": "https://github.com/timiscoding/react-tabulator.git"
   },
   "keywords": [
     "react",
@@ -39,7 +39,7 @@
   "bugs": {
     "url": "https://github.com/ngduc/react-tabulator/issues"
   },
-  "homepage": "https://github.com/ngduc/react-tabulator#readme",
+  "homepage": "https://github.com/timiscoding/react-tabulator#readme",
   "dependencies": {
     "@types/react-tag-autocomplete": "^5.6.0",
     "dotenv": "^8.2.0",
